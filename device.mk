@@ -404,6 +404,25 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
+# Overlays
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlaySweet \
+    DialerOverlaySweet \
+    FrameworkResOverlaySweet \
+    SettingsOverlay \
+    SettingsProviderOverlaySweet \
+    SystemUIOverlaySweet \
+    TelephonyOverlaySweet
+
+# Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
     $(LOCAL_PATH)/configs/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml 

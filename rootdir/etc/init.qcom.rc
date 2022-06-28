@@ -509,7 +509,6 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/m
     disabled
 
 on charger
-    setprop persist.sys.usb.config mass_storage
     start vendor.qcom-post-boot
     chown system system /sys/class/backlight/panel0-backlight/brightness
 

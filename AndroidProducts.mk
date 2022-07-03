@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_spes.mk
+    $(LOCAL_DIR)/elytra_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_spes-user \
-    evolution_spes-userdebug \
-    evolution_spes-eng
+    elytra_spes-user \
+    elytra_spes-userdebug \
+    elytra_spes-eng

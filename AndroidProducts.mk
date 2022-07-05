@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/elytra_spes.mk
+    $(LOCAL_DIR)/spark_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    elytra_spes-user \
-    elytra_spes-userdebug \
-    elytra_spes-eng
+    spark_spes-user \
+    spark_spes-userdebug \
+    spark_spes-eng
